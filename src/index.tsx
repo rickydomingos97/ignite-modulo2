@@ -11,7 +11,11 @@ createServer({
       return [
         {
           id: 1,
-        }
+          title: 'Transaction',
+          amount: 400,
+          category: 'Food',
+          createdAt: new Date()
+,        }
       ]
     })
   }
